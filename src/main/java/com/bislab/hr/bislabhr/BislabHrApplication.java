@@ -10,4 +10,6 @@ public class BislabHrApplication {
 		SpringApplication.run(BislabHrApplication.class, args);
 	}
 
+
+
 }

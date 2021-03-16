@@ -1,0 +1,33 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://example.com/api/book/hal-cookbook"
+    },
+    "next": {
+      "href": "http://example.com/api/book/hal-case-study"
+    },
+    "prev": {
+      "href": "http://example.com/api/book/json-and-beyond"
+    },
+    "first": {
+      "href": "http://example.com/api/book/catalog"
+    },
+    "last": {
+      "href": "http://example.com/api/book/upcoming-books"
+    }
+  },
+  "_embedded": {
+    "author": {
+      "_links": {
+        "self": {
+          "href": "http://example.com/api/author/shahadat"
+        }
+      },
+      "id": "shahadat",
+      "name": "Shahadat Hossain Khan",
+      "homepage": "http://author-example.com"
+    }
+  },
+  "id": "hal-cookbook",
+  "name": "HAL Cookbook"
+}
